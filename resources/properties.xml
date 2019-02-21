@@ -17,7 +17,7 @@
     </properties>
 
     <strings>
-       <string id="CHO_1_title">1st 'grams per minute burned' value</string>
+       <string id="CHO_1_title">1st 'grams per minute burned' value -- for more help see instructions here: http://bit.ly/GlycUsage</string>
        <string id="Watt_1_title">Wattage at which that value occured</string>
        <string id="CHO_2_title">2nd 'g/min burned' value</string>
        <string id="Watt_2_title">Corresponding wattage value</string>

@@ -64,7 +64,8 @@ class GlycogenUsageView extends WatchUi.SimpleDataField {
         WATT_7 = App.getApp().getProperty("WATT_7").toNumber();
 
 
-// filter out null values here and build logic to only use the ones we have -- then offer 8 or 9 data points? never to have too few and will let the filtering take care of the too many
+// iteration 2: filter out null values here and build logic to only use the ones we have
+// then offer 8 or 9 data points? never can have too few and will let the filtering take care of the too many
 
         //converting grams per minute to calories per second
         CHO_1 = (CHO_1 * 4 / 60);
@@ -145,8 +146,6 @@ class GlycogenUsageView extends WatchUi.SimpleDataField {
 
         watt_cho.put(WATT_0, CHO_0);
 
-// build out the rest of the hash (loop) with a flat line to 2000, dont want a null value crashing the math
-
         label = "CHO Used";
     }
 
@@ -161,6 +160,10 @@ class GlycogenUsageView extends WatchUi.SimpleDataField {
             else if (info.currentPower < 0) {
                 // Power data is below 0
                 pwr = 0;
+            }
+            else if (info.currentPower > WATT_7) {
+            	// Power data is above last known wattage hash key - above this most further contribution to power output comes from the reuse of lactate
+				pwr = WATT_7;
             }
             else {
                 // Incoming power data is OK! You've got the pow-wuh! https://www.youtube.com/watch?v=Cf_qfX9cKsQ You're welcome.

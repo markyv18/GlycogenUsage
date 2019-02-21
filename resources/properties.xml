@@ -1,0 +1,92 @@
+<resources>
+    <properties>
+        <property id="CHO_1" type="float">1.41</property>
+        <property id="WATT_1" type="number">121</property>
+        <property id="CHO_2" type="float">1.61</property>
+        <property id="WATT_2" type="number">162</property>
+        <property id="CHO_3" type="float">2.22</property>
+        <property id="WATT_3" type="number">202</property>
+        <property id="CHO_4" type="float">2.93</property>
+        <property id="WATT_4" type="number">243</property>
+        <property id="CHO_5" type="float">3.88</property>
+        <property id="WATT_5" type="number">283</property>
+        <property id="CHO_6" type="float">4.82</property>
+        <property id="WATT_6" type="number">324</property>
+        <property id="CHO_7" type="float">4.89</property>
+        <property id="WATT_7" type="number">364</property>
+    </properties>
+
+    <strings>
+       <string id="CHO_1_title">1st 'grams per minute burned' value</string>
+       <string id="Watt_1_title">Wattage at which that value occured</string>
+       <string id="CHO_2_title">2nd 'g/min burned' value</string>
+       <string id="Watt_2_title">Corresponding wattage value</string>
+       <string id="CHO_3_title">3rd 'g/min burned' value</string>
+       <string id="Watt_3_title">Corresponding wattage value</string>
+       <string id="CHO_4_title">4th 'g/min burned' value</string>
+       <string id="Watt_4_title">Corresponding wattage value</string>
+       <string id="CHO_5_title">5th 'g/min burned' value</string>
+       <string id="Watt_5_title">Corresponding wattage value</string>
+       <string id="CHO_6_title">6th 'g/min burned' value</string>
+       <string id="Watt_6_title">Corresponding wattage value</string>
+       <string id="CHO_7_title">7th 'g/min burned' value</string>
+       <string id="Watt_7_title">Corresponding wattage value</string>
+       <string id="field_label">carbohydrates burned</string>
+       <string id="field_units">calories</string>
+    </strings>
+
+    <settings>
+        <setting propertyKey="@Properties.CHO_1" title="@Strings.CHO_1_title" helpUrl="http://www.github.com">
+            <settingConfig type="numeric" min="0.2" max="7" />
+        </setting>
+        <setting propertyKey="@Properties.WATT_1" title="@Strings.Watt_1_title" >
+            <settingConfig type="numeric" min="0" max="600" />
+        </setting>
+
+        <setting propertyKey="@Properties.CHO_2" title="@Strings.CHO_2_title" >
+            <settingConfig type="numeric" min="0.2" max="7" />
+        </setting>
+        <setting propertyKey="@Properties.WATT_2" title="@Strings.Watt_2_title" >
+            <settingConfig type="numeric" min="0" max="600" />
+        </setting>
+
+        <setting propertyKey="@Properties.CHO_3" title="@Strings.CHO_3_title" >
+            <settingConfig type="numeric" min="0.2" max="7" />
+        </setting>
+        <setting propertyKey="@Properties.WATT_3" title="@Strings.Watt_3_title" >
+            <settingConfig type="numeric" min="0" max="600" />
+        </setting>
+
+        <setting propertyKey="@Properties.CHO_4" title="@Strings.CHO_4_title" >
+            <settingConfig type="numeric" min="0.2" max="7" />
+        </setting>
+        <setting propertyKey="@Properties.WATT_4" title="@Strings.Watt_4_title" >
+            <settingConfig type="numeric" min="0" max="600" />
+        </setting>
+
+        <setting propertyKey="@Properties.CHO_5" title="@Strings.CHO_5_title" >
+            <settingConfig type="numeric" min="0.2" max="7" />
+        </setting>
+        <setting propertyKey="@Properties.WATT_5" title="@Strings.Watt_5_title" >
+            <settingConfig type="numeric" min="0" max="600" />
+        </setting>
+
+        <setting propertyKey="@Properties.CHO_6" title="@Strings.CHO_6_title" >
+            <settingConfig type="numeric" min="0.2" max="7" />
+        </setting>
+        <setting propertyKey="@Properties.WATT_6" title="@Strings.Watt_6_title" >
+            <settingConfig type="numeric" min="0" max="600" />
+        </setting>
+
+        <setting propertyKey="@Properties.CHO_7" title="@Strings.CHO_7_title" >
+            <settingConfig type="numeric" min="0.2" max="7" />
+        </setting>
+        <setting propertyKey="@Properties.WATT_7" title="@Strings.Watt_7_title" >
+            <settingConfig type="numeric" min="0" max="600" />
+        </setting>
+    </settings>
+
+    <fitContributions>
+        <fitField id="0" displayInActivitySummary="true" sortOrder="0" precision="0" unitLabel="@Strings.field_units" dataLabel="@Strings.field_label" />
+	</fitContributions>
+</resources>

@@ -36,7 +36,7 @@
     </strings>
 
     <settings>
-        <setting propertyKey="@Properties.CHO_1" title="@Strings.CHO_1_title" helpUrl="http://www.github.com">
+        <setting propertyKey="@Properties.CHO_1" title="@Strings.CHO_1_title" helpUrl="http://bit.ly/GlycUsage">
             <settingConfig type="numeric" min="0.2" max="7" />
         </setting>
         <setting propertyKey="@Properties.WATT_1" title="@Strings.Watt_1_title" >

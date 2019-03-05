@@ -148,7 +148,7 @@ class GlycogenUsageView extends WatchUi.SimpleDataField {
             CHO_6 = CHO_6 + pwf6_7;
             }
 
-        label = "CHO Used";
+        label = "Carb Cals";
     }
 
     function compute(info) {

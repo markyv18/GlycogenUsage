@@ -1,80 +1,85 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
     <pcToLineNum>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="47" pc="268435456" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="48" pc="268435460" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="51" pc="268435478" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="52" pc="268435524" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="53" pc="268435570" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="54" pc="268435616" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="55" pc="268435662" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="56" pc="268435708" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="57" pc="268435754" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="58" pc="268435800" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="59" pc="268435846" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="60" pc="268435892" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="61" pc="268435938" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="62" pc="268435984" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="63" pc="268436030" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="64" pc="268436076" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="71" pc="268436122" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="72" pc="268436150" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="73" pc="268436178" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="74" pc="268436206" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="75" pc="268436234" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="76" pc="268436262" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="77" pc="268436290" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="80" pc="268436318" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="81" pc="268436361" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="82" pc="268436404" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="83" pc="268436447" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="84" pc="268436490" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="85" pc="268436533" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="86" pc="268436576" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="91" pc="268436619" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="93" pc="268436644" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="95" pc="268436665" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="98" pc="268436724" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="100" pc="268436749" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="102" pc="268436770" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="105" pc="268436829" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="48" pc="268435456" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="49" pc="268435460" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="52" pc="268435478" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="53" pc="268435524" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="54" pc="268435570" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="55" pc="268435616" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="56" pc="268435662" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="57" pc="268435708" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="58" pc="268435754" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="59" pc="268435800" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="60" pc="268435846" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="61" pc="268435892" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="62" pc="268435938" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="63" pc="268435984" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="64" pc="268436030" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="65" pc="268436076" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="72" pc="268436122" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="73" pc="268436150" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="74" pc="268436178" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="75" pc="268436206" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="76" pc="268436234" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="77" pc="268436262" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="78" pc="268436290" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="81" pc="268436318" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="82" pc="268436361" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="83" pc="268436404" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="84" pc="268436447" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="85" pc="268436490" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="86" pc="268436533" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="87" pc="268436576" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="92" pc="268436619" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="93" pc="268436653" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="95" pc="268436687" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="97" pc="268436712" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="99" pc="268436733" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="100" pc="268436770" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="103" pc="268436808" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="105" pc="268436833" symbol="initialize"/>
         <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="107" pc="268436854" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="109" pc="268436875" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="112" pc="268436934" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="114" pc="268436959" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="116" pc="268436980" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="119" pc="268437039" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="121" pc="268437064" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="123" pc="268437085" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="126" pc="268437144" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="128" pc="268437169" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="130" pc="268437190" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="133" pc="268437249" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="135" pc="268437274" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="137" pc="268437295" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="140" pc="268437354" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="142" pc="268437376" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="144" pc="268437397" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="147" pc="268437456" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="149" pc="268437490" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="152" pc="268437504" symbol="compute"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="154" pc="268437508" symbol="compute"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="156" pc="268437525" symbol="compute"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="158" pc="268437538" symbol="compute"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="160" pc="268437554" symbol="compute"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="162" pc="268437571" symbol="compute"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="164" pc="268437587" symbol="compute"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="166" pc="268437607" symbol="compute"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="170" pc="268437626" symbol="compute"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="172" pc="268437642" symbol="compute"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="177" pc="268437687" symbol="compute"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="182" pc="268437693" symbol="compute"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageApp.mc" id="6" lineNum="5" pc="268437703" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageApp.mc" id="6" lineNum="6" pc="268437707" symbol="initialize"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageApp.mc" id="7" lineNum="10" pc="268437726" symbol="onStart"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageApp.mc" id="8" lineNum="14" pc="268437731" symbol="onStop"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageApp.mc" id="9" lineNum="18" pc="268437736" symbol="getInitialView"/>
-        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageApp.mc" id="9" lineNum="19" pc="268437740" symbol="getInitialView"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="108" pc="268436891" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="111" pc="268436929" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="113" pc="268436954" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="115" pc="268436975" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="116" pc="268437012" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="119" pc="268437050" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="121" pc="268437075" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="123" pc="268437096" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="124" pc="268437133" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="127" pc="268437171" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="129" pc="268437196" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="131" pc="268437217" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="132" pc="268437254" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="135" pc="268437292" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="137" pc="268437317" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="139" pc="268437338" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="140" pc="268437375" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="143" pc="268437413" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="145" pc="268437438" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="147" pc="268437459" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="148" pc="268437496" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="3" lineNum="151" pc="268437534" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="154" pc="268437548" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="156" pc="268437552" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="158" pc="268437569" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="160" pc="268437582" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="162" pc="268437598" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="164" pc="268437615" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="166" pc="268437631" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="168" pc="268437651" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="172" pc="268437670" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="175" pc="268437686" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="181" pc="268437731" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageView.mc" id="4" lineNum="186" pc="268437737" symbol="compute"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageApp.mc" id="6" lineNum="5" pc="268437747" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageApp.mc" id="6" lineNum="6" pc="268437751" symbol="initialize"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageApp.mc" id="7" lineNum="10" pc="268437770" symbol="onStart"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageApp.mc" id="8" lineNum="14" pc="268437775" symbol="onStop"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageApp.mc" id="9" lineNum="18" pc="268437780" symbol="getInitialView"/>
+        <entry filename="/Users/MVA/eclipse-workspace/Glycogen Usage/source/GlycogenUsageApp.mc" id="9" lineNum="19" pc="268437784" symbol="getInitialView"/>
     </pcToLineNum>
     <symbolTable>
         <entry field="true" id="57" symbol="Watt_2_title"/>
@@ -141,17 +146,16 @@
         <entry id="8388635" module="true" symbol="Application"/>
     </symbolTable>
     <localVars>
-        <entry endPc="268436724" name="i" stackId="1" startPc="268436665"/>
-        <entry endPc="268436829" name="i" stackId="2" startPc="268436770"/>
-        <entry endPc="268436934" name="i" stackId="3" startPc="268436875"/>
-        <entry endPc="268437039" name="i" stackId="4" startPc="268436980"/>
-        <entry endPc="268437144" name="i" stackId="5" startPc="268437085"/>
-        <entry endPc="268437249" name="i" stackId="6" startPc="268437190"/>
-        <entry endPc="268437354" name="i" stackId="7" startPc="268437295"/>
-        <entry endPc="268437456" name="i" stackId="8" startPc="268437397"/>
-        <entry endPc="268437703" name="info" stackId="1" startPc="268437504"/>
-        <entry endPc="268437731" name="state" stackId="1" startPc="268437726"/>
-        <entry endPc="268437736" name="state" stackId="1" startPc="268437731"/>
+        <entry endPc="268436808" name="i" stackId="1" startPc="268436733"/>
+        <entry endPc="268436929" name="i" stackId="2" startPc="268436854"/>
+        <entry endPc="268437050" name="i" stackId="3" startPc="268436975"/>
+        <entry endPc="268437171" name="i" stackId="4" startPc="268437096"/>
+        <entry endPc="268437292" name="i" stackId="5" startPc="268437217"/>
+        <entry endPc="268437413" name="i" stackId="6" startPc="268437338"/>
+        <entry endPc="268437534" name="i" stackId="7" startPc="268437459"/>
+        <entry endPc="268437747" name="info" stackId="1" startPc="268437548"/>
+        <entry endPc="268437775" name="state" stackId="1" startPc="268437770"/>
+        <entry endPc="268437780" name="state" stackId="1" startPc="268437775"/>
     </localVars>
     <annotations/>
     <functions>

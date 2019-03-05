@@ -11,7 +11,7 @@
         <property id="CHO_5" type="float">3.88</property>
         <property id="WATT_5" type="number">283</property>
         <property id="CHO_6" type="float">4.82</property>
-        <property id="WATT_6" type="number">324</property>
+        <property id="WATT_6" type="number">323</property>
         <property id="CHO_7" type="float">4.89</property>
         <property id="WATT_7" type="number">364</property>
     </properties>
@@ -87,6 +87,11 @@
     </settings>
 
     <fitContributions>
-        <fitField id="0" displayInActivitySummary="true" sortOrder="0" precision="0" unitLabel="@Strings.field_units" dataLabel="@Strings.field_label" />
+        <fitField id="0"
+        displayInActivitySummary="true"
+        sortOrder="0"
+        precision="0"
+        unitLabel="@Strings.field_units"
+        dataLabel="@Strings.field_label" />
 	</fitContributions>
 </resources>

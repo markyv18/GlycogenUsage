@@ -1,5 +1,6 @@
 using Toybox.WatchUi;
 using Toybox.Application as App;
+using Toybox.System as Sys;
 
 class GlycogenUsageView extends WatchUi.SimpleDataField {
 
@@ -86,65 +87,66 @@ class GlycogenUsageView extends WatchUi.SimpleDataField {
         pwf6_7 = (CHO_7 - CHO_6) / (WATT_7 - WATT_6);
 
 
-        // the below loops build out the hash/dictionary that links a wattage value to a corresponding glycogen burn rate 0:.04, 1:.0456, 2:.0472... cal
+        // these loops build out the hash/dictionary that links a wattage value to a corresponding glycogen burn rate 0:.04, 1:.0456, 2:.0472... cal
+
+        watt_cho.put(WATT_0, CHO_0);
+        watt_cho.put(WATT_7, CHO_7);
 
         counter = (WATT_1 - WATT_0);
 
         for(var i = 0; i < counter; i ++)
             {
-            watt_cho.put((WATT_0 + i), ((CHO_0 + pwf0_1)) );
+            watt_cho.put( (WATT_0 + i), CHO_0 );
+            CHO_0 = CHO_0 + pwf0_1;
             }
 
         counter = (WATT_2 - WATT_1);
 
         for(var i = 0; i < counter; i ++)
             {
-            watt_cho.put((WATT_1 + i), ((CHO_1 + pwf1_2)) );
+            watt_cho.put( (WATT_1 + i), CHO_1 );
+            CHO_1 = CHO_1 + pwf1_2;
             }
 
         counter = (WATT_3 - WATT_2);
 
         for(var i = 0; i < counter; i ++)
             {
-            watt_cho.put((WATT_2 + i), ((CHO_2 + pwf2_3)) );
+            watt_cho.put( (WATT_2 + i), CHO_2 );
+            CHO_2 = CHO_2 + pwf2_3;
             }
 
         counter = (WATT_4 - WATT_3);
 
         for(var i = 0; i < counter; i ++)
             {
-            watt_cho.put((WATT_3 + i), ((CHO_3 + pwf3_4)) );
+            watt_cho.put( (WATT_3 + i), CHO_3 );
+            CHO_3 = CHO_3 + pwf3_4;
             }
 
         counter = (WATT_5 - WATT_4);
 
         for(var i = 0; i < counter; i ++)
             {
-            watt_cho.put((WATT_4 + i), ((CHO_4 + pwf4_5)) );
+            watt_cho.put( (WATT_4 + i), CHO_4 );
+            CHO_4 = CHO_4 + pwf4_5;
             }
 
         counter = (WATT_6 - WATT_5);
 
         for(var i = 0; i < counter; i ++)
             {
-            watt_cho.put((WATT_5 + i), ((CHO_5 + pwf5_6)) );
+            watt_cho.put( (WATT_5 + i), CHO_5 );
+            CHO_5 = CHO_5 + pwf5_6;
             }
 
         counter = (WATT_7 - WATT_6);
 
         for(var i = 0; i < counter; i ++)
             {
-            watt_cho.put((WATT_6 + i), ((CHO_6 + pwf6_7)) );
+            watt_cho.put( (WATT_6 + i), CHO_6 );
+            CHO_6 = CHO_6 + pwf6_7;
             }
-
-        counter = (2000 - WATT_7);
-
-        for(var i = 0; i < counter; i ++)
-            {
-            watt_cho.put((WATT_6 + i), ((CHO_7 + pwf6_7)) );
-            }
-
-        watt_cho.put(WATT_0, CHO_0);
 
         label = "CHO Used";
     }
@@ -166,10 +168,12 @@ class GlycogenUsageView extends WatchUi.SimpleDataField {
 				pwr = WATT_7;
             }
             else {
-                // Incoming power data is OK! You've got the pow-wuh! https://www.youtube.com/watch?v=Cf_qfX9cKsQ You're welcome.
+                // Incoming power data is OK! You've got the pow-wuh! https://www.youtube.com/watch?v=Cf_qfX9cKsQ Seriously, watch that, you're welcome.
                 pwr = info.currentPower;
             }
+
         CHO_burn = CHO_burn + watt_cho.get(pwr);
+
         }
 
         else {
@@ -177,7 +181,7 @@ class GlycogenUsageView extends WatchUi.SimpleDataField {
             return 0;
         }
 
-		// For testing purposes in the simulator change '.currentPower to '.elapsedTime/1000' this will mock wattage inputs
+		// For testing purposes in the simulator change 'info.currentPower to '(info.elapsedTime/1000)' this will mock wattage inputs
 
         return CHO_burn;
     }

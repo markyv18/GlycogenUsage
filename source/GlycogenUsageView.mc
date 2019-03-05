@@ -89,7 +89,6 @@ class GlycogenUsageView extends WatchUi.SimpleDataField {
 
         // these loops build out the hash/dictionary that links a wattage value to a corresponding glycogen burn rate 0:.04, 1:.0456, 2:.0472... cal
 
-        watt_cho.put(WATT_0, CHO_0);
         watt_cho.put(WATT_7, CHO_7);
 
         counter = (WATT_1 - WATT_0);

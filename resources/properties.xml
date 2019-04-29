@@ -18,19 +18,19 @@
 
     <strings>
        <string id="CHO_1_title">1st 'grams per minute burned' value -- for more help see instructions here: http://bit.ly/GlycUsage</string>
-       <string id="Watt_1_title">Wattage at which that value occured</string>
+       <string id="Watt_1_title">1st Wattage at which that value occured</string>
        <string id="CHO_2_title">2nd 'g/min burned' value</string>
-       <string id="Watt_2_title">Corresponding wattage value</string>
+       <string id="Watt_2_title">2nd Corresponding wattage value</string>
        <string id="CHO_3_title">3rd 'g/min burned' value</string>
-       <string id="Watt_3_title">Corresponding wattage value</string>
+       <string id="Watt_3_title">3rd Corresponding wattage value</string>
        <string id="CHO_4_title">4th 'g/min burned' value</string>
-       <string id="Watt_4_title">Corresponding wattage value</string>
+       <string id="Watt_4_title">4th Corresponding wattage value</string>
        <string id="CHO_5_title">5th 'g/min burned' value</string>
-       <string id="Watt_5_title">Corresponding wattage value</string>
+       <string id="Watt_5_title">5th Corresponding wattage value</string>
        <string id="CHO_6_title">6th 'g/min burned' value</string>
-       <string id="Watt_6_title">Corresponding wattage value</string>
+       <string id="Watt_6_title">6th Corresponding wattage value</string>
        <string id="CHO_7_title">7th 'g/min burned' value</string>
-       <string id="Watt_7_title">Corresponding wattage value</string>
+       <string id="Watt_7_title">7th Corresponding wattage value</string>
        <string id="field_label">carbohydrates burned</string>
        <string id="field_units">calories</string>
     </strings>

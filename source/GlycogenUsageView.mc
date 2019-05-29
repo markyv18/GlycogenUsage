@@ -2,6 +2,8 @@ using Toybox.WatchUi;
 using Toybox.Application as App;
 using Toybox.System as Sys;
 using Toybox.FitContributor as Fit;
+using Toybox.Math as Math;
+using Toybox.Lang as Lang;
 
 class GlycogenUsageView extends WatchUi.SimpleDataField {
 
@@ -152,7 +154,7 @@ class GlycogenUsageView extends WatchUi.SimpleDataField {
 
         // Create the custom FIT data field we want to record.
         CHO_Burn_Field = createField(
-            "CHO_burned",
+            "Calories of Carbohydrates Burned",
             CHO_BURN_FIELD_ID,
             Fit.DATA_TYPE_FLOAT,
             {:mesgType=>Fit.MESG_TYPE_RECORD, :units=>"cals"}
@@ -162,29 +164,37 @@ class GlycogenUsageView extends WatchUi.SimpleDataField {
     }
 
     function compute(info) {
-      // Is Power > 0, if not normalize to 0
-      if (info.currentPower == null) {
-          // Power data is null
-          pwr = 0;
-      }
-      else if (info.currentPower < 0) {
-          // Power data is below 0
-          pwr = 0;
-      }
-      else if (info.currentPower > WATT_7) {
-          // Power data is above last known wattage hash key - above this most further contribution to power output comes from the reuse of lactate
-          pwr = WATT_7;
-      }
-      else {
-          // Incoming power data is OK! You've got the pow-wuh! https://www.youtube.com/watch?v=Cf_qfX9cKsQ Seriously, watch that, you're welcome.
-          pwr = info.currentPower;
-      }
+        //Have we started?
+        if (info.elapsedTime > 0) {
+            // Is Power > 0, if not normalize to 0
+            if (info.currentPower == null) {
+                // Power data is null
+                pwr = 0;
+            }
+            else if (info.currentPower < 0) {
+                // Power data is below 0
+                pwr = 0;
+            }
+            else if (info.currentPower > WATT_7) {
+                // Power data is above last known wattage hash key - ignoring diminishing burn rates above this for simplicity of calculations 
+                pwr = WATT_7;
+            }
+            else {
+                // Incoming power data is OK! You've got the pow-wuh! https://www.youtube.com/watch?v=Cf_qfX9cKsQ Seriously, watch that, you're welcome.
+                pwr = info.currentPower;
+            }
 
-      CHO_burn = CHO_burn + watt_cho.get(pwr);
+            CHO_burn = CHO_burn + watt_cho.get(333);
 
-		  // For testing purposes in the simulator change 'info.currentPower to '(info.timerTime/1000)' this will mock wattage inputs
-      CHO_Burn_Field.setData(CHO_burn);
-      return CHO_burn;
+      		  // For testing purposes in the simulator change 'info.currentPower to '(info.timerTime/1000)' this will mock wattage inputs
+            CHO_Burn_Field.setData(CHO_burn);
+        } 
+
+        else {
+            // initial display prior to starting the session
+            return 0;
+        }
+
+      return CHO_burn.toNumber();
     }
-
 }
